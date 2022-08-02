@@ -7,7 +7,7 @@ const MusicCard = () => {
         alt="cover"
       ></img>
 
-      <div>
+      <div class="flex flex-wrap">
         <div class="pt-3 font-['bold'] text-lg truncate">
           Titl asdae asdasd adasd adasda
         </div>
