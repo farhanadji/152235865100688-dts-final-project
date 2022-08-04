@@ -1,10 +1,10 @@
 import PlayVideoButton from "./PlayVideoButton";
 
-const VideoCard = () => {
+const VideoCard = ({ data }) => {
   return (
     <div class="rounded-lg overflow-hidden relative hover:cursor-pointer">
       <img
-        src="https://i.ytimg.com/vi/7maJOI3QMu0/maxresdefault.jpg"
+        src={data.image.url ? data.image.url : "/not_found.png"}
         alt="music video"
       />
 
